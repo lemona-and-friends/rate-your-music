@@ -1,7 +1,7 @@
 {
-  "name": "vue_experiments",
+  "name": "rate_your_music",
   "version": "1.0.0",
-  "description": "For Testing and Learning Vue Mechanics",
+  "description": "rate your spotify playlists with your friends",
   "author": "leonakuse <leona.kuse@gmail.com>",
   "private": true,
   "scripts": {
@@ -22,6 +22,7 @@
     "googleapis": "^27.0.0",
     "node-sass": "^4.11.0",
     "readline": "^1.3.0",
+    "sockjs-client": "^1.3.0",
     "vue": "^2.5.2",
     "vue-router": "^3.0.1"
   },
@@ -51,10 +52,8 @@
     "eslint-plugin-promise": "^3.4.0",
     "eslint-plugin-standard": "^3.0.1",
     "eslint-plugin-vue": "^4.0.0",
-    "extract-text-webpack-plugin": "^3.0.0",
     "file-loader": "^1.1.4",
     "friendly-errors-webpack-plugin": "^1.6.1",
-    "html-webpack-plugin": "^2.30.1",
     "jest": "^22.0.4",
     "jest-serializer-vue": "^0.3.0",
     "node-notifier": "^5.1.2",
@@ -73,9 +72,10 @@
     "vue-loader": "^13.3.0",
     "vue-style-loader": "^3.0.1",
     "vue-template-compiler": "^2.5.2",
-    "webpack": "^3.6.0",
+    "webpack": "4.29.6",
     "webpack-bundle-analyzer": "^2.9.0",
-    "webpack-dev-server": "^2.9.1",
+    "webpack-cli": "^3.3.0",
+    "webpack-dev-server": "^3.2.1",
     "webpack-merge": "^4.1.0"
   },
   "engines": {
